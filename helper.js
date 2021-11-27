@@ -24,6 +24,7 @@ const sleep = (ms) => {
     });
 }
 
+
 const teamActualSplinterToPlay = (teamIdsArray) => teamIdsArray.reduce(deckValidColor, '')
 
 const clickOnElement = async (page, selector, timeout=20000, delayBeforeClicking = 0) => {
